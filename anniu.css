@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin-top: 3
+}
+.btn{
+    background:none;
+    padding:10px;
+    font-size:40px;
+    cursor:pointer;
+    transition: 0.6s;
+    margin:10px;
+}
+.btn1,.btn2,.btn3{
+    color:cadetblue
+}
+.btn1:hover{
+    color:aquamarine;
+}
+.btn2:hover{
+    color:aquamarine;
+}
+.btn3:hover{
+    color:aquamarine
+}

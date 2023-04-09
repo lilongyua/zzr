@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>下拉式导航栏</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            text-decoration: none;
+            list-style: none;
+            
+        }
+        .nav{
+            box-shadow: 5px 10px #777;
+        }
+        .b{
+            float: left;
+            width:150px;
+            height:50px;
+            text-align: center;
+        }
+        .b:hover .droplist{
+            display: block;
+
+        }
+        .navlist{ 
+            background-color: #fff;
+            box-shadow:0 1px 2px #3333;
+        }
+        .navlist a{
+            display:block;
+            color:#6666;
+        }
+        .navlist a:hover{
+            background-color: #8888;
+        }
+        .droplist{
+             background:#2222;
+             box-shadow: 0 1px 2px #8888 ;
+             display:none;     
+        } 
+
+</style>
+</head>
+<body>
+    <div class="nav">
+        <ul class="navlist">
+            <li class="b"><a href="#">导航栏一</a>
+                <ul class="droplist">
+                    <li><a href="#">一</a></li>
+                    <li><a href="#">二</a></li>
+                    <li><a href="#">三</a></li>
+                    <li><a href="#">四</a></li>
+                    <li><a href="#">五</a></li>
+                </ul></li>
+           
+            <li class="b"><a href="#">导航栏二</a>
+                <ul class="droplist">
+                    <li><a href="#">一</a></li>
+                    <li><a href="#">二</a></li>
+                    <li><a href="#">三</a></li>
+                    <li><a href="#">四</a></li>
+                    <li><a href="#">五</a></li>
+                </ul></li>
+            <li class="b"><a href="#">导航栏三</a>
+                <ul class="droplist">
+                    <li><a href="#">一</a></li>
+                    <li><a href="#">二</a></li>
+                    <li><a href="#">三</a></li>
+                    <li><a href="#">四</a></li>
+                    <li><a href="#">五</a></li>
+                </ul></li>
+        </ul>
+    </div>
+</body>
+</html>

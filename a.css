@@ -1,0 +1,29 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    height:1000px;
+}
+ul{
+    width: 1200px;
+    list-style: none;
+    display:flex;
+    justify-content:space-around
+}
+ul li{
+    position: relative;
+    overflow: hidden;
+    margin:10px 10px;
+}
+img{
+    width:400px;
+    height:300px;
+}
+img:hover{
+    transform: scale(1.05);
+    transition:all 0.5s;
+}
